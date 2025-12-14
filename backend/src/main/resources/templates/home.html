@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Al-Kata Sweet Shop</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .price { color: green; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>🍬 Al-Kata Sweet Shop Dashboard</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="sweet : ${sweets}">
+                <td th:text="${sweet.id}">1</td>
+                <td th:text="${sweet.name}">Mint Choco</td>
+                <td th:text="${sweet.category}">Candy</td>
+                <td class="price" th:text="${'$' + sweet.price}">$1.50</td>
+                <td th:text="${sweet.quantity}">50</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
