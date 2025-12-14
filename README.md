@@ -79,3 +79,14 @@ The use of AI significantly enhanced the project's development quality and effic
 * **Improved Deliverable Quality:** The AI was crucial in transforming a messy development history into a clean, highly readable log (14+ granular commits), which is a key requirement for professional portfolio projects.
 * **Time Savings in DevOps:** By automating the complex task of Git history manipulation and quickly diagnosing configuration errors, the AI substantially reduced time spent on DevOps tasks, allowing for greater focus on core business logic.
 * **Enhanced Problem Solving:** The AI functioned as an effective technical partner, providing immediate, targeted solutions for system-level errors that would otherwise require extensive manual troubleshooting.
+*
+*Screenshots 
+*
+* <img width="1437" height="711" alt="Screenshot 2025-12-14 at 8 28 36 PM" src="https://github.com/user-attachments/assets/40ce2280-e877-4cec-b198-15a1bca7dd5e" />
+<img width="1437" height="711" alt="Screenshot 2025-12-14 at 8 19 18 PM" src="https://github.com/user-attachments/assets/325b7dbc-af6b-4670-ae23-d4d1a809fb27" />
+<img width="1437" height="711" alt="Screenshot 2025-12-14 at 8 17 41 PM" src="https://github.com/user-attachments/assets/89bd33b7-5447-4e6d-8ced-d1f8c1eab022" />
+
+
+
+
+
